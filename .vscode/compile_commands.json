@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Works/ZOther/lpc_led",
+  "arguments": ["/Softwares/Compilers/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc", "-c", "-g", "-O0", "-std=c99", "-ICore/CMSIS/Include", "-ICore/Device/NXP/LPC11xx/Include", "-Idrivers/inc", "-Imain", "-mcpu=cortex-m0", "-mthumb", "-std=gnu99", "-Wall", "-fstack-usage", "--specs=nano.specs", "-mfloat-abi=soft", "-ffunction-sections", "-fdata-sections", "-nostartfiles", "-nostdlib", "-o", "build/.objs/./lpc_led.elf/cross/arm/debug/cr_startup_lpc11xx.c.o", "cr_startup_lpc11xx.c"],
+  "file": "cr_startup_lpc11xx.c"
+},
+{
+  "directory": "/Works/ZOther/lpc_led",
+  "arguments": ["/Softwares/Compilers/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc", "-c", "-g", "-O0", "-std=c99", "-ICore/CMSIS/Include", "-ICore/Device/NXP/LPC11xx/Include", "-Idrivers/inc", "-Imain", "-mcpu=cortex-m0", "-mthumb", "-std=gnu99", "-Wall", "-fstack-usage", "--specs=nano.specs", "-mfloat-abi=soft", "-ffunction-sections", "-fdata-sections", "-nostartfiles", "-nostdlib", "-o", "build/.objs/./lpc_led.elf/cross/arm/debug/main/bootloder.c.o", "main/bootloder.c"],
+  "file": "main/bootloder.c"
+},
+{
+  "directory": "/Works/ZOther/lpc_led",
+  "arguments": ["/Softwares/Compilers/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc", "-c", "-g", "-O0", "-std=c99", "-ICore/CMSIS/Include", "-ICore/Device/NXP/LPC11xx/Include", "-Idrivers/inc", "-Imain", "-mcpu=cortex-m0", "-mthumb", "-std=gnu99", "-Wall", "-fstack-usage", "--specs=nano.specs", "-mfloat-abi=soft", "-ffunction-sections", "-fdata-sections", "-nostartfiles", "-nostdlib", "-o", "build/.objs/./lpc_led.elf/cross/arm/debug/drivers/src/LPC11xx_uart.c.o", "drivers/src/LPC11xx_uart.c"],
+  "file": "drivers/src/LPC11xx_uart.c"
+},
+{
+  "directory": "/Works/ZOther/lpc_led",
+  "arguments": ["/Softwares/Compilers/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc", "-c", "-g", "-O0", "-std=c99", "-ICore/CMSIS/Include", "-ICore/Device/NXP/LPC11xx/Include", "-Idrivers/inc", "-Imain", "-mcpu=cortex-m0", "-mthumb", "-std=gnu99", "-Wall", "-fstack-usage", "--specs=nano.specs", "-mfloat-abi=soft", "-ffunction-sections", "-fdata-sections", "-nostartfiles", "-nostdlib", "-o", "build/.objs/./lpc_led.elf/cross/arm/debug/drivers/src/LPC11xx_debug.c.o", "drivers/src/LPC11xx_debug.c"],
+  "file": "drivers/src/LPC11xx_debug.c"
+},
+{
+  "directory": "/Works/ZOther/lpc_led",
+  "arguments": ["/Softwares/Compilers/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc", "-c", "-g", "-O0", "-std=c99", "-ICore/CMSIS/Include", "-ICore/Device/NXP/LPC11xx/Include", "-Idrivers/inc", "-Imain", "-mcpu=cortex-m0", "-mthumb", "-std=gnu99", "-Wall", "-fstack-usage", "--specs=nano.specs", "-mfloat-abi=soft", "-ffunction-sections", "-fdata-sections", "-nostartfiles", "-nostdlib", "-o", "build/.objs/./lpc_led.elf/cross/arm/debug/Core/Device/NXP/LPC11xx/Source/Templates/system_LPC11xx.c.o", "Core/Device/NXP/LPC11xx/Source/Templates/system_LPC11xx.c"],
+  "file": "Core/Device/NXP/LPC11xx/Source/Templates/system_LPC11xx.c"
+}]
